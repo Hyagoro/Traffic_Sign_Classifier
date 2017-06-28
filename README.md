@@ -64,7 +64,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 As a last step, I normalized the image data using openCV min max normalizer to get a better contrast.
 
-Here is an example a sample of normalized images:
+Here is a sample of normalized images:
 
 ![alt text][image20]
 
@@ -143,7 +143,7 @@ The model was able to correctly guess 14 of the 16 traffic signs, which gives an
 
 The code for making predictions on my final model is located in the 17th cell of the Jupyter notebook.
 
-Finaly, the sign 30km/h speed limit was not a problem compared to 100km/h speed limit sign. The top five soft max probabilities were:
+Finally, the sign 30km/h speed limit was not a problem compared to 100km/h speed limit sign. The top five soft max probabilities were:
 
 Yield was predicted :
 * Yield at 13.816567420959473%
