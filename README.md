@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./report/bar.jpg "Visualization"
+[image1]: ./report/bar.png "Visualization"
 [image4]: ./traffic-signs-news/00000_00014.jpg "Traffic Sign 1"
 [image5]: ./traffic-signs-news/00000_00023.jpg "Traffic Sign 2"
 [image6]: ./traffic-signs-news/00001_00017.jpg "Traffic Sign 3"
