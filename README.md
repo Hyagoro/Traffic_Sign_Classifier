@@ -145,84 +145,86 @@ The code for making predictions on my final model is located in the 17th cell of
 
 Finally, the sign 30km/h speed limit was not a problem compared to 100km/h speed limit sign. The top five soft max probabilities were:
 
+INFO:tensorflow:Restoring parameters from ./lenet
 Yield was predicted :
-* Yield at 13.816567420959473%
-* Speed limit (60km/h) at 2.8390212059020996%
-* Stop at 1.4006872177124023%
+* Yield at 0.9997619986534119%
+* Speed limit (50km/h) at 0.0001685354218352586%
+* Road work at 3.1417046557180583e-05%
 
 Yield was predicted :
-* Yield at 17.291114807128906%
-* Priority road at 2.974719524383545%
-* No passing for vehicles over 3.5 metric tons at -0.9347158670425415%
+* Yield at 0.9999943971633911%
+* Speed limit (30km/h) at 3.6590374747902388e-06%
+* Keep right at 8.095304337984999e-07%
 
 Stop was predicted :
-* Stop at 10.012700080871582%
-* No vehicles at 2.011249542236328%
-* No entry at 1.8586984872817993%
+* Stop at 0.9997864365577698%
+* Speed limit (80km/h) at 0.00017442155512981117%
+* Speed limit (30km/h) at 1.4265858226281125e-05%
 
 Bumpy road was predicted :
-* Bumpy road at 7.810288906097412%
-* Road work at 4.179072380065918%
-* Bicycles crossing at 2.8104777336120605%
+* Bumpy road at 0.9658303260803223%
+* Road narrows on the right at 0.01878529228270054%
+* Dangerous curve to the right at 0.007164016831666231%
 
 Slippery road was predicted :
-* Slippery road at 9.70471477508545%
-* Children crossing at 3.6869354248046875%
-* Beware of ice/snow at 1.8858410120010376%
+* Slippery road at 0.9042190313339233%
+* Dangerous curve to the left at 0.06443075835704803%
+* Dangerous curve to the right at 0.026664407923817635%
 
 Speed limit (100km/h) was predicted :
-* Speed limit (80km/h) at 7.455338001251221%
-* Speed limit (100km/h) at 5.580087661743164%
-* Speed limit (120km/h) at 1.863337516784668%
+* Speed limit (80km/h) at 0.6539806723594666%
+* Speed limit (100km/h) at 0.33548855781555176%
+* Vehicles over 3.5 metric tons prohibited at 0.00474350294098258%
 
 Roundabout mandatory was predicted :
-* Roundabout mandatory at 5.858547210693359%
-* Go straight or left at 1.4140509366989136%
-* Keep left at -0.16061408817768097%
+* Roundabout mandatory at 0.9944174289703369%
+* Go straight or left at 0.004873400554060936%
+* Keep right at 0.0005993542145006359%
 
 General caution was predicted :
-* General caution at 14.54281234741211%
-* Pedestrians at 7.883150100708008%
-* Traffic signals at 7.646287441253662%
+* General caution at 0.9966030120849609%
+* Traffic signals at 0.0032088051084429026%
+* Pedestrians at 0.00017882279644254595%
 
 Right-of-way at the next intersection was predicted :
-* Right-of-way at the next intersection at 12.881926536560059%
-* Slippery road at 6.561455726623535%
-* Beware of ice/snow at 4.8460869789123535%
+* Right-of-way at the next intersection at 0.9991012811660767%
+* Beware of ice/snow at 0.0008936773519963026%
+* Children crossing at 3.6047531466465443e-06%
 
 Speed limit (70km/h) was predicted :
-* Speed limit (70km/h) at 10.193379402160645%
-* Speed limit (30km/h) at 5.222599506378174%
-* Speed limit (80km/h) at 4.329324722290039%
+* Speed limit (70km/h) at 0.9986227750778198%
+* Speed limit (30km/h) at 0.001275851740501821%
+* No vehicles at 5.338023402146064e-05%
 
 Vehicles over 3.5 metric tons prohibited was predicted :
-* End of no passing at 6.396401405334473%
-* Dangerous curve to the right at 3.9751317501068115%
-* Vehicles over 3.5 metric tons prohibited at 3.8834900856018066%
+* End of no passing at 0.9328629970550537%
+* End of all speed and passing limits at 0.031764477491378784%
+* End of no passing by vehicles over 3.5 metric tons at 0.008638669736683369%
 
 No entry was predicted :
-* No entry at 16.12698745727539%
-* Stop at 6.474311351776123%
-* Priority road at -0.2244900017976761%
+* No entry at 0.9995668530464172%
+* Stop at 0.00042210103129036725%
+* No vehicles at 6.8793524405919015e-06%
 
 Priority road was predicted :
-* Priority road at 8.426002502441406%
-* Yield at 3.1253669261932373%
-* No entry at 0.7640930414199829%
+* Priority road at 0.9968223571777344%
+* Yield at 0.0025436219293624163%
+* End of all speed and passing limits at 0.00043486038339324296%
 
 Ahead only was predicted :
-* Ahead only at 10.61231803894043%
-* Turn left ahead at -0.07316013425588608%
-* Speed limit (80km/h) at -0.6469821929931641%
+* Ahead only at 0.9999457597732544%
+* Turn right ahead at 1.8656082829693332e-05%
+* Turn left ahead at 1.6260117263300344e-05%
 
 Speed limit (30km/h) was predicted :
-* Speed limit (30km/h) at 10.765523910522461%
-* Speed limit (50km/h) at 7.358022212982178%
-* Speed limit (70km/h) at 5.211430549621582%
+* Speed limit (30km/h) at 0.9457525014877319%
+* Speed limit (50km/h) at 0.05390146002173424%
+* Speed limit (70km/h) at 0.0001552138419356197%
 
 Traffic signals was predicted :
-* Traffic signals at 6.037755012512207%
-* General caution at 4.119287014007568%
-* Pedestrians at 2.744610071182251%
+* Traffic signals at 0.9706506133079529%
+* General caution at 0.017575105652213097%
+* Road narrows on the right at 0.009173298254609108%
+
 
 The sign "Vehicles over 3.5 metric tons prohibited" wasn't predicted correctly, I think it's due to the short number of this sign labelised.
