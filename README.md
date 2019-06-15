@@ -13,6 +13,11 @@ The goals / steps of this project are the following:
 * Summarize the results with a written report
 
 
+### Update 15/06/19
+New notebook "Traffic_Sign_Classifier_tf2" 
+- Transform the model 
+
+
 [//]: # (Image References)
 
 [image1]: ./report/bar.png "Visualization"
